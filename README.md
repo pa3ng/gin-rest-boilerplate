@@ -1,4 +1,4 @@
-# gin-boilerplate
+# gin-rest-boilerplate
 
 This is an easily extendible go RESTful API boilerplate using the [gin](https://github.com/gin-gonic/gin) web framework.
 
