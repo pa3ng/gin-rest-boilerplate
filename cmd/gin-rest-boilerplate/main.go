@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/pa3ng/gin-boilerplate/internal/app"
+	"github.com/pa3ng/gin-rest-boilerplate/internal/app"
 )
 
 func main() {
