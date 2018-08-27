@@ -4,7 +4,7 @@ import (
 	"github.com/gin-gonic/gin"
 )
 
-func Root(c *gin.Context) {
+func Index(c *gin.Context) {
 	c.JSON(200, gin.H{"message": "Gin Boilerplate API v1"})
 
 }

@@ -9,7 +9,7 @@ func NewRouter() *gin.Engine {
 
 	v1 := router.Group("api/v1")
 	{
-		v1.GET("/", Root)
+		v1.GET("/", Index)
 		v1.GET("/health", Health)
 	}
 
