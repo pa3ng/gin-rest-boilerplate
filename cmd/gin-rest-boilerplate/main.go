@@ -1,11 +1,11 @@
 package main
 
 import (
-	"github.com/pa3ng/gin-rest-boilerplate/internal/app"
+	r "github.com/pa3ng/gin-rest-boilerplate/pkg/router"
 )
 
 func main() {
-	router := app.NewRouter()
+	router := r.NewRouter()
 
 	err := router.Run(":8080")
 	if err != nil {
